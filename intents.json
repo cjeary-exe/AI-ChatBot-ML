@@ -1,0 +1,14 @@
+{
+  "greet": {
+    "patterns": ["hello", "hi", "hey", "what's up"],
+    "responses": ["Hi there!", "Hello!", "Hey! How can I help you?"]
+  },
+  "goodbye": {
+    "patterns": ["bye", "see you", "goodbye"],
+    "responses": ["Bye! Have a great day.", "See you soon!", "Goodbye!"]
+  },
+  "weather": {
+    "patterns": ["what's the weather", "weather forecast", "is it raining"],
+    "responses": ["Let me check the weather for you...", "It's sunny right now."]
+  }
+}
