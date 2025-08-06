@@ -45,5 +45,8 @@ print("Accuracy:", accuracy_score(y, model.predict(X_vectors)))
 
 # Create save file and dump model into it using pickle
 
-file = open("model.pkl", "wb")
-pickle.dump(model, file)
+saveFile = open("model.pkl", "wb")
+pickle.dump(model, saveFile)
+
+vec = open("vectorizer.pkl", "wb")
+pickle.dump(vectorizer, vec)

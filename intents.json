@@ -1,14 +1,39 @@
 {
   "greet": {
-    "patterns": ["hello", "hi", "hey", "what's up"],
-    "responses": ["Hi there!", "Hello!", "Hey! How can I help you?"]
+    "patterns": [
+      "hello", "hi", "hey", "yo", "sup", "hiya", "good morning", "good afternoon", "good evening",
+      "what's up", "whats up", "whats going on", "what's going on", "how are you", "how's it going",
+      "how's everything", "how are things", "how's your day", "hey there", "hi there", "greetings",
+      "howdy", "hello there", "heyo", "hey what's up", "what up", "how you doing", "how u doing",
+      "wassup", "how are ya", "hows it goin", "yo yo", "hey hey", "what's cracking", "what’s happening"
+    ],
+    "responses": [
+      "Hi there!", "Hello!", "Hey! How can I help you?", "Hi! What can I do for you?", "Hey there!"
+    ]
   },
   "goodbye": {
-    "patterns": ["bye", "see you", "goodbye"],
-    "responses": ["Bye! Have a great day.", "See you soon!", "Goodbye!"]
+    "patterns": [
+      "bye", "goodbye", "see you", "see ya", "take care", "later", "see you later", "talk to you later",
+      "peace", "peace out", "have a good day", "catch you later", "farewell", "i'm out", "bye bye",
+      "gotta go", "see you soon", "until next time", "i'll talk to you soon", "i'm signing off", "good night"
+    ],
+    "responses": [
+      "Bye! Have a great day.", "See you soon!", "Goodbye!", "Take care!", "Talk to you later!"
+    ]
   },
   "weather": {
-    "patterns": ["what's the weather", "weather forecast", "is it raining"],
-    "responses": ["Let me check the weather for you...", "It's sunny right now."]
+    "patterns": [
+      "what's the weather", "what is the weather like", "weather forecast", "is it raining", "is it sunny",
+      "what's the temperature", "tell me the weather", "weather", "is it cold", "is it hot", "is it snowing",
+      "is it stormy", "how's the weather", "how's the weather outside", "current weather", "is it nice out",
+      "is the weather bad", "weather today", "today's weather", "sunny", "cloudy", "raining", "snowing",
+      "rain", "cold", "hot", "humid", "stormy", "foggy", "windy", "will it rain today", "do i need an umbrella",
+      "is it freezing", "what's the weather like in ohio", "how's the weather in london", "temperature check",
+      "is it warm", "can i wear shorts today", "is it t-shirt weather"
+    ],
+    "responses": [
+      "Let me check the weather for you...", "It's sunny right now.", "Looks like it's going to rain today.",
+      "The forecast says it's going to be cold.", "It's a bit cloudy out there.", "It's pretty warm today."
+    ]
   }
 }
