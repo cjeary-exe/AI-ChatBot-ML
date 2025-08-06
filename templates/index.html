@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI ChatBot</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2rem auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        .chat-box {
+            margin-top: 20px;
+        }
+        .user, .bot {
+            margin: 10px 0;
+        }
+        .user {
+            color: blue;
+        }
+        .bot {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>AI ChatBot</h1>
+
+    <form method="POST" action="/predict">
+        <input type="text" name="message" placeholder="Type your query" required>
+        <input type="submit" value="Send">
+    </form>
+
+    <div class="chat-box">
+        {% if user_input %}
+            <div class="user"><strong>You:</strong> {{ user_input }}</div>
+            <div class="bot"><strong>Bot:</strong> {{ bot_response }}</div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
